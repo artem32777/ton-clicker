@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node bot.js"
   },
   "keywords": [],
   "author": "",
