@@ -9,7 +9,7 @@ const bot = new Telegraf(token)
 
 bot.command('start', (ctx) => {
   ctx.reply(
-    `Hello - ${ctx.payload}`,
+    `Hesllo - ${ctx.payload}`,
     Markup.inlineKeyboard([
       Markup.button.webApp('Open app', `${webAppUrl}?ref=${ctx.payload}`),
     ]),

@@ -8,7 +8,6 @@ const webAppUrl = 'https://ton-pet-clicker.web.app/'
 const bot = new Telegraf(token)
 
 bot.command('start', (ctx) => {
-  // ctx.reply('Hello!', Markup.keyboard([['Clicker']]).resize())
   ctx.reply(
     `Hello - ${ctx.payload}`,
     Markup.inlineKeyboard([
